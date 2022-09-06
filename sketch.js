@@ -33,7 +33,7 @@ async function blackOut() {
 }
 
 async function updateTimer() {
-    await new Promise(r => setTimeout(r, 600))
+    await new Promise(r => setTimeout(r, 999))
     if (timer > 0) {
         timer -= 1;
         document.getElementById("timer").innerText = timer;
